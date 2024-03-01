@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />s
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Fazendo Nada</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo-nav">Matts Burger</h1>
+            <img class="header-menu" src="../imgs/menu.png" alt="">
+
+            <!-- <button id="openModalBtn">Open Modal</button> -->
+        </header>
+        <section class="section">
+            <div class="box-horario">
+                <p class="txt-box">Abertos das <span class="textboxDetail">16 horas</span> ás <span
+                        class="textboxDetail">00 horas</span></p>
+                <p class="txt-box">Quinta a Domingo</p>
+            </div>
+        </section>
+
+
+        <main class="conteudo">
+
+            <!-- COMBOS DO DIA -->
+            <div class="organizeTitle">
+                <img class="diadiaImg" src="../imgs/dia.png" alt="">
+                <h2 class="subDia"> Combo do dia !</h2>
+            </div>
+
+            <div class="junto">
+
+                <div class="combo" data-modal="combo1">
+                    <img class="comboFoto" src="../imgs/meu delivery/comboDIa1.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo burger 2 pessoa</h3>
+                        <p class="pCombo">Escolha dias opções de lanche e uma batata + maionese da casa.</p>
+                        <div class="compre">
+                            <span class="preco">R$ 68.90</span>
+
+                            <a class="botao" href="./">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Adicionar !
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo" data-modal="combo2">
+                    <img class="comboFoto" src="../imgs/meu delivery/comboDia2.jpg" alt="Combo fritas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo fritas + soda</h3>
+                        <p class="pCombo">Escolha sua bata + sua soda</p>
+                        <div class="compre">
+                            <span class="preco">R$ 68.90</span>
+                            <a class="botao" href="./carrinho" class="botao"><i class="fa-solid fa-cart-shopping"></i>
+                                Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- COMBOS -->
+            <div class="organizeTitle">
+                <img class="titleImg" src="../imgs/Combos-Icon-e1702408493314.png" alt="">
+                <h2 class="subDia">combos</h2>
+            </div>
+
+
+            <div class="junto">
+                <div class="combo" data-modal="combo3">
+                    <img class="comboFoto" src="../imgs/meu delivery/Mathilda-v2.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo Mathilda</h3>
+                        <p class="pCombo">Smash burger de 110g, pão, queijo cheddar, bacon, cebola roxa, picles e molho
+                            da casa. Acompanha batata, maionese da casa e refrigerante de 350ml.</p>
+                        <div class="compre">
+                            <span class="preco">R$ 44,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i
+                                    class="fa-solid fa-cart-shopping"></i>Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo" data-modal="combo4">
+                    <img class="comboFoto" src="../imgs/meu delivery/Friday-v1.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo friday</h3>
+                        <p class="pCombo">Smash burger de 110g, pão, queijo cheddar, bacon, cebola caramelizada e
+                            maionese da casa. Acompanha batata, maionese da casa e refrigerante de 350ml.</p>
+                        <div class="compre">
+                            <span class="preco">R$ 44,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i class="fa-solid fa-cart-shopping"></i>
+                                Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo" data-modal="combo5">
+                    <img class="comboFoto" src="../imgs/meu delivery/Onion-web.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo onion crispy</h3>
+                        <p class="pCombo">Dois smash burgers de 70g, pão, queijo cheddar, bacon, molho barbecue, anéis
+                            de cebola empanado e maionese da casa. Acompanha batata, maionese da casa e refrigerante de
+                            350ml.</p>
+                        <div class="compre">
+                            <span class="preco">R$ 46,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i
+                                    class="fa-solid fa-cart-shopping"></i>Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo" data-modal="combo6">
+                    <img class="comboFoto" src="../imgs/meu delivery/Salad-V1.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Combo Salad</h3>
+                        <p class="pCombo">Smash burger de 110g, pão, queijo prato, cebola roxa, tomate, alface e molho
+                            da casa. Acompanha batata, maionese da casa e refrigerante de 350ml.</p>
+                        <div class="compre">
+                            <span class="preco">R$ 42,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i
+                                    class="fa-solid fa-cart-shopping"></i>Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PORÇOES -->
+            <div class="organizeTitle">
+                <img class="porcaoImg" src="../imgs/meu delivery/FRITAS.png" alt="">
+                <h2 class="subDia"> porções !</h2>
+            </div>
+            <div class="junto">
+                <div class="combo" data-modal="combo7">
+                    <img class="comboFoto" src="../imgs/meu delivery/Fritas-queijo-e-bacon-g.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">fritas queijo e bacon</h3>
+                        <p class="pCombo">Nossas deliciosas batatas palito artesanais, servidas com creme de queijo e
+                            bacon. Média: 150g, Grande:350g</p>
+                        <div class="compre">
+                            <span class="preco">R$ 19,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i
+                                    class="fa-solid fa-cart-shopping"></i>Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo" data-modal="combo8">
+                    <img class="comboFoto porcao" src="../imgs/meu delivery/Onion-media.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Onion Rings</h3>
+                        <p class="pCombo">Porção de anéis de cebola empanados. Acompanha maionese da casa. Média: 150g,
+                            Grande:350g</p>
+                        <div class="compre">
+                            <span class="preco">R$ 18,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i class="fa-solid fa-cart-shopping"></i>
+                                Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo" data-modal="combo9">
+                    <img class="comboFoto" src="../imgs/meu delivery/Batata-v1.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">fritas</h3>
+                        <p class="pCombo">Batatas palito natural, temperadas com páprica. Acompanha maionese da casa.
+                            Média: 150g, Grande:350g</p>
+                        <div class="compre">
+                            <span class="preco">R$ 14,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i
+                                    class="fa-solid fa-cart-shopping"></i>Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo" data-modal="combo10">
+                    <img class="comboFoto porcao" src="../imgs/meu delivery/Maionese-web.jpg" alt="Combo 2 pessoas">
+                    <div class="txtCombo">
+                        <h3 class="titleCombo">Maionese da casa</h3>
+                        <p class="pCombo">Maionese da casa</p>
+                        <div class="compre">
+                            <span class="preco">R$ 5,00</span>
+                            <a class="botao" href="./carrinho" class="botao"><i class="fa-solid fa-cart-shopping"></i>
+                                Adicionar !</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <div class="caixa">
+            <span>dadadadada</span>
+        </div>
+
+        <!-- Modais -->
+        <!-- Scrollable modal -->
+        
+        <div id="combo1" class="modal">
+            <div class="modal-content">  
+                <span class="close" data-modal="modal2">&times;</span>
+                <img class="modal-combo1" src="../imgs/meu delivery/ComboDiaModal.jpg" alt="" >
+
+                <div class="modal-control">
+                    <h3 class="title-modal">Combo Burger 2 Pessoas</h3>
+                    <p class="text-modal">Escolha duas opções de lanches e uma batata + maionese da casa.</p>
+
+                    <h4 class="subTituloModal" data-modal="modal1-lanche">escolha o 1º lanche</h4>
+                    <ul class="lista" id="modal1-lanche">
+                        <h4 class="modal-lista">(Max: 1)<spam class="modal-lista-Detalhe"> Obrigatório</spam> </h4>
+                        <li class="lista-item">Tradicional</li>
+                        <li class="lista-item">Queijo e bacon<span class="item-detalhe">R$ 6,00</span></li>
+                        <li class="lista-item">Tradicional G <span class="item-detalhe">R$ 14,00</span>                        </li>
+                    </ul>
+
+                    <h4 class="subTituloModal" data-modal="modal1-fritas">fritas</h4>
+                    <ul class="lista" id="modal1-fritas">
+                        <h4 class="modal-lista">(Max: 1)<spam class="modal-lista-Detalhe"> Obrigatório</spam> </h4>
+                        <li class="lista-item">Tradicional</li>
+                        <li class="lista-item">Queijo e bacon<span class="item-detalhe">R$ 6,00</span></li>
+                        <li class="lista-item">Tradicional G <span class="item-detalhe">R$ 14,00</span>                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="combo2" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal2">&times;</span>
+                <p>Conteúdo do Modal 2</p>
+            </div>
+        </div>
+
+        <div id="combo3" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <p>Conteúdo do Modal 3</p>
+            </div>
+        </div>
+
+        <div id="combo4" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal1">&times;</span>
+                <p>Conteúdo do Modal 4</p>
+            </div>
+        </div>
+
+        <div id="combo5" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal2">&times;</span>
+                <p>Conteúdo do Modal 5</p>
+            </div>
+        </div>
+
+        <div id="combo6" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <p>Conteúdo do Modal 6</p>
+            </div>
+        </div>
+
+        <div id="combo7" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal1">&times;</span>
+                <p>Conteúdo do Modal 7</p>
+            </div>
+        </div>
+
+        <div id="combo8" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal2">&times;</span>
+                <p>Conteúdo do Modal 8</p>
+            </div>
+        </div>
+
+        <div id="combo9" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <p>Conteúdo do Modal 9</p>
+            </div>
+        </div>
+        <div id="combo10" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <p>Conteúdo do Modal 10</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="../js/script.js"></script>
+</body>
+
+</html>

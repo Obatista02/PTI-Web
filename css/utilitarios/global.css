@@ -1,0 +1,29 @@
+html {
+  background-color: #FFFFFF;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  /* max-width: 144rem; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.caixa{
+  align-items: center;
+  background-color: black;
+  border-radius: 5rem;
+  bottom: 3rem;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  position: fixed;
+  width: 20rem;
+}
+.caixa span{
+  color: white;
+  font-size: 1.6rem;
+}

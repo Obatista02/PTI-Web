@@ -1,0 +1,29 @@
+
+.box-horario {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.txt-box {
+    animation: blink 1s infinite;
+    font-family: "Roboto";
+
+}
+
+.textboxDetail {
+    color: #F1BE56;
+}
+
+
+
+@keyframes blink {
+
+    0%,
+    50% {
+        color: black;
+    }
+
+    100% {
+        color: red;
+    }
+}

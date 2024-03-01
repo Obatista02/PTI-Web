@@ -1,0 +1,149 @@
+.conteudo {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 80%;
+}
+.organizeTitle{
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.junto {
+    border-top: .2rem #F1BE56 solid;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.titleImg {
+    width: 8rem;
+}
+.porcaoImg{
+    width: 5rem;
+}
+.diadiaImg{
+    width: 6rem;
+}
+.subDia {
+    font-family: "Roboto";
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.combo {
+    display: flex;
+    font-family: "Roboto";
+    padding-top: 3.5rem;
+    width: 100%;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.comboFoto {
+    border-radius: .5rem;
+    width: 16rem;
+}
+
+.txtCombo {
+    margin-left: 3rem;
+    width: 50%;
+
+}
+
+.titleCombo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.pCombo {
+    color: #515151;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.preco {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.compre {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    border-radius: .9rem;
+    border: .2rem solid #F1BE56;
+    color: #2e2e2e;
+    font-size: 1.6rem;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.fa-solid {
+    margin-right: 1rem;
+}
+
+
+@media(max-width:1100px) {
+    .junto {
+        grid-template-columns: auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media(max-width:470px) {
+    .conteudo {
+        width: 95%;
+    }
+
+    .subDia {
+        font-size: 3rem;
+    }
+
+    .titleImg {
+        width: 5rem;
+    }
+
+    .combo {
+        margin-bottom: 0;
+        /* cursor: pointer; */
+    }
+
+    .comboFoto {
+        width: 12rem;
+        height: 10rem;
+    }
+        
+
+    .titleCombo {
+        font-size: 2rem;
+    }
+
+    .pCombo {
+        font-size: 1.2rem;
+        max-width: 25ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-bottom: 1rem;
+    }
+
+    .botao {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,8 @@
+@import "./layout/header.css";
+@import "./layout/detalhe.css";
+@import "./layout/conteudo.css";
+
+
+@import "./utilitarios/global.css";
+@import "./utilitarios/reset.css";
+@import "./utilitarios/modal.css";
